@@ -13,6 +13,6 @@ public class JNITest {
     public static native String test(String name);// 声明native函数
 
     public static void main(String[] args) {
-        System.out.println(test("wander"));
+        System.out.println(test("wander"));// 调用本地函数
     }
 }
