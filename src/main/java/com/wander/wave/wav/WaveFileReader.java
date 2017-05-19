@@ -6,6 +6,7 @@ import java.io.IOException;
 
 @SuppressWarnings("unused")
 public class WaveFileReader {
+
 	private String filename = null;
 	private int[][] data = null;
 
@@ -30,7 +31,6 @@ public class WaveFileReader {
 	private boolean issuccess = false;
 
 	public WaveFileReader(String filename) {
-
 		this.initReader(filename);
 	}
 
@@ -193,4 +193,5 @@ public class WaveFileReader {
 		}
 		return null;
 	}
+
 }
