@@ -11,5 +11,7 @@ package com.wander.wave.wav;
  *         2. v1.1 2014-04-27
  */
 public class WaveAccess {
+
 	public static final String VERSION = "1.1";
+
 }
