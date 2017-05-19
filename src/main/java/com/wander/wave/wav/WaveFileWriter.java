@@ -5,6 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class WaveFileWriter {
+
 	private String filename = null;
 	private FileOutputStream fos = null;
 	private BufferedOutputStream bos = null;
@@ -135,4 +136,5 @@ public class WaveFileWriter {
 		writer.close();
 		return true;
 	}
+
 }
