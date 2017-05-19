@@ -1,6 +1,7 @@
 package com.wander.wave.wav;
 
 public final class WaveConstants {
+
 	static public int LENCHUNKDESCRIPTOR = 4;
 	static public int LENCHUNKSIZE = 4;
 	static public int LENWAVEFLAG = 4;
@@ -14,9 +15,10 @@ public final class WaveConstants {
 	static public int LENBITSPERSAMPLE = 2;
 	static public int LENDATASUBCHUNK = 4;
 	static public int LENSUBCHUNK2SIZE = 4;
-	
+
 	public static String CHUNKDESCRIPTOR = "RIFF";
 	public static String WAVEFLAG = "WAVE";
 	public static String FMTSUBCHUNK = "fmt ";
 	public static String DATASUBCHUNK = "data";
+
 }
